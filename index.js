@@ -34,6 +34,7 @@ async function searchImg() {
 
 
 searchForm.addEventListener("submit", (e)=>{
+    moreImg.style.display = "inline-block"
     e.preventDefault();
     page=1;
     searchImg();
